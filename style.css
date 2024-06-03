@@ -115,11 +115,11 @@ body{
 .sidebar.close .navlink{
     display: none;
 }
-.navlink:hover{
+.nav_link:hover{
     color: var(--white);
     background: var(--main-color);
 }
-.sidebar.close .navlink:hover{
+.sidebar.close .nav_link:hover{
     background: var(--white);
 }
 .collapse_content{
