@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Side Nav</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="bx bx-menu" id="SideBarOpne"></i>
+            Strona
+        </div>
+    </nav>
+    <nav class="sidebar">
+        <div class="menu_content">
+            <ul class="menu_items">
+                <li class="menu_item">
+                    <span class="navlink_icon">
+                        <i class="bx bx-home"></i>
+                    </span>
+                    <span class="navlink">Strona Główna</span>
+                </li>
+                <li class="menu_item">
+                    <span class="navlink_icon">
+                        <i class="bx bx-cog"></i>
+                    </span>
+                    <span class="navlink">Ustawienia</span>
+                </li>
+                <li class="menu_item">
+                    <span class="navlink_icon">
+                        <i class="bx bx-layer"></i>
+                    </span>
+                    <span class="navlink">Usługi</span>
+                </li>
+                <li class="menu_item">
+                    <span class="navlink_icon">
+                        <i class="bx bx-cloud-upload"></i>
+                    </span>
+                    <span class="navlink">Przesyłanie</span>
+                </li>
+                <div class="collapse_content">
+                    <div class="collapse expand_sidebar">
+                        <span>Rozwiń</span>
+                        <i class="bx bx-chevron-right"></i>
+                    </div>
+                    <div class="collapse expand_sidebar">
+                        <span>Zwiń</span>
+                        <i class="bx bx-chevron-left"></i>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
